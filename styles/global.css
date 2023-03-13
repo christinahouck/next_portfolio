@@ -12,9 +12,14 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  color: #0070f3;
+.listItem a {
+  color: #85AD98;
   text-decoration: none;
+}
+.listItem a:hover,
+.listItem a:active,
+.listItem a:visited {
+  color: #6C9D83;
 }
 
 a:hover {
