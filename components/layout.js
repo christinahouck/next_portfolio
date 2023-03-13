@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Script from "next/script";
 
 const name = "Christina Martinez";
 export const siteTitle = "Christina Martinez | Software Engineer";
@@ -25,6 +26,7 @@ export default function Layout({ children, home }) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
+            <Script src="https://app.tinyanalytics.io/pixel/w8lMS639ofweFCAk" />
             <header className={styles.header}>
                 {home ? (
                     <>
