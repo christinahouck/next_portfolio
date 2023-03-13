@@ -89,3 +89,30 @@
     flex-direction: column;
   }
 }
+
+.pillsContainer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.pillsContainer ul li {
+  background-color: #E7EFEB;
+  border-radius: 20px;
+  padding: 6px 10px;
+  margin: 6px 2px;
+  list-style: none;
+}
+
+/* .pillsContainer ul:nth-child(2) li {
+  background-color: #E7EFEB;
+}
+
+.pillsContainer ul:nth-child(3n) li {
+  background-color: #F1F6F8;
+} */
