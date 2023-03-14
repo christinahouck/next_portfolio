@@ -3,6 +3,8 @@ title: 'React: Popular Quotes UI'
 date: '2022-10-10'
 ---
 
+![A screen capture showing someone dragging a quote into their sermon document in Logos Bible Software](/images/popular-quotes.gif)
+
 ## What I did
 Wrote the majority of the UI for a cornerstone feature in a major product release, using React, Less, styled-components, and react-query.
 
